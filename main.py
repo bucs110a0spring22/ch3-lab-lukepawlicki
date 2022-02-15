@@ -32,17 +32,19 @@ for i in range(0,10):
 
 
 # Part B - complete part B here
+
+leonardo.right(90)
+leonardo.forward(40)
 leonardo.down()
 side_length = 20
 num_sides=[3,4,6,9,12]
-n=0
 for i in num_sides:
-  
-  for n in range(i):
-    leonardo.left(360/i)
+  for _ in range(i):
     leonardo.forward(side_length)
+    leonardo.left(360/i)
   leonardo.clear()
-  
+
+
 
   
 
