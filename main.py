@@ -36,7 +36,7 @@ for i in range(0,10):
 leonardo.right(90)
 leonardo.forward(40)
 leonardo.down()
-side_length = 20
+side_length = 40
 num_sides=[3,4,6,9,12]
 for i in num_sides:
   for _ in range(i):
